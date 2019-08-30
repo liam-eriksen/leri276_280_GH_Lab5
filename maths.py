@@ -41,9 +41,8 @@ def convert_base(num, n):
     return new_num_string
 
 def factorial(num):
-    '''
-    finalNum = 0
+    finalNum = 1
     while num != 0:
-        finalNum += num
-        num -= 1    
-    '''
+        finalNum *= num
+        num -= 1
+    return finalNum    
